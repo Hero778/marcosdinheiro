@@ -1,0 +1,25 @@
+body{
+	background-color: #54CEFC !important;
+	text-align: center !important;
+	font-family: berlin sans fb !important;
+}
+.txt{
+	font-size: 20px;
+}
+#div1{
+  background-color: lightgreen;
+  size: 500px;
+}
+	
+#casa{
+	width: 750px;
+	height: 525px;
+}
+#div2{
+	background-color: #00FF00;
+}
+.nav-link{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: impact;
+}
