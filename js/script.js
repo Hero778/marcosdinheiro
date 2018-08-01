@@ -56,4 +56,19 @@ function voltacor8(){
 	var cor2=document.getElementById('d4');
 	cor2.style.background="red";
 }
+function idade(){
+	var anoAtual = 2018;
+	var form =document.getElementById('formulario');
+	var ano = form.anodenascimento.value;
+	var nome = form.nome.value;
+	var subtracao =anoAtual-ano;
+
+	//alert("O seu nome e " + nome +"?");
+
+	
+	//alert(subtracao);
+  
+	var escreve = document.getElementById('div11');
+	escreve.innerHTML="<p> Olá "+nome+" sua idade e "+idade+"</p>";	
+}
 
